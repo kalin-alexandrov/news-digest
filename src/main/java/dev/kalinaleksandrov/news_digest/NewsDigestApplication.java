@@ -1,0 +1,13 @@
+package dev.kalinaleksandrov.news_digest;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class NewsDigestApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NewsDigestApplication.class, args);
+	}
+
+}
