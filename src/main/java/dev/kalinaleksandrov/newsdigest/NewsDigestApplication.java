@@ -1,4 +1,4 @@
-package dev.kalinaleksandrov.news_digest;
+package dev.kalinaleksandrov.newsdigest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
