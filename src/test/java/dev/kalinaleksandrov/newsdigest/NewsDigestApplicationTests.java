@@ -1,4 +1,4 @@
-package dev.kalinaleksandrov.news_digest;
+package dev.kalinaleksandrov.newsdigest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
