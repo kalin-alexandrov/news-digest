@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: news-digest-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: news_digest
+      POSTGRES_USER: news_digest
+      POSTGRES_PASSWORD: news_digest
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
